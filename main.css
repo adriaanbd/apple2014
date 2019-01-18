@@ -28,3 +28,19 @@ header {
     display: flex;
 }
 
+#footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer-right ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.footer-li {
+    margin-left: 1em;
+}
+
