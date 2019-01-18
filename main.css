@@ -2,7 +2,7 @@ html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+    font-family: 'Roboto', Helvetica, Arial, Verdana, sans-serif;
 }
 
 *,
@@ -45,17 +45,38 @@ header {
 .hero-text {
     margin: 0 15%;
     text-align: center;
+    font-weight: 100;
 }
 
 #hero-title {
     font-size: 64px;
-    font-weight: 300;
-    margin-top: 0.4em;
+    margin-top: 0.7em;
 }
 
 #hero-subtitle {
     margin-bottom: 0.5em;
+    font-size: 30px;
+    margin-top: 0.5em;
+    margin-bottom: 1.1em;
 }
+
+#hero-link {
+    font-size: 24px;
+    color: #fff;
+}
+
+#hero-link a {
+    color: #fff;
+    text-decoration: none;
+}
+#hero-link a:hover {
+    text-decoration: underline;
+}
+
+#hero-link a:hover span {
+    text-decoration: none;
+}
+
 
 .promos {
     display: flex;
