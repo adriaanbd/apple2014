@@ -28,25 +28,35 @@ header {
 }
 
 #main-nav {
-    display: table;
+    display: flex;
     text-align: center;
     position: absolute;
     top: 2em;
     width: 980px;
     height: 36px;
+    border-radius: 4px;
     background: linear-gradient(to bottom, #686868, #5c5c5c, #717171, #8d8d8d);
+}
+
+
+.nav-link {
+    width: 106px;
+    cursor: pointer;
 }
 
 .nav-item {
     display: inline-block;
-    padding: 0.5em 2em;
+    padding-top: 0.5em;
+    height: 100%;
 }
-
-.nav-item a {
+#search-div {
+    width: 119px; 
+    /* display: flex; */
+}
+#search {
+    /* background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6%2BR8AAAAlEl…SGBj7Qveh3OJW89syImiH%2BIO2BOJX0XwA2%2BQEL4pAhSX4aBQAAAABJRU5ErkJggg%3D%3D) no-repeat 0 0; */
     width: 106px;
 }
-
-
 #hero-wrapper {
     display: flex;
     flex-direction: column;
