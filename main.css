@@ -23,9 +23,25 @@ header {
 .promos {
     display: flex;
 }
-
+footer {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
 #footer-content-wrapper{
     display: flex;
+    font-size: 10px;
+    color: #6e6e6e;
+    line-height: 12px;
+    font-weight: 400;
+}
+
+#footer-content-wrapper a {
+    color: #08c;
+    text-decoration: none;
+}
+#footer-content-wrapper a:hover {
+    text-decoration: underline;
 }
 
 #footer-left {
@@ -38,9 +54,5 @@ header {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-}
-
-.footer-li {
-    margin-left: 1em;
 }
 
