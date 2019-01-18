@@ -22,12 +22,20 @@ header {
 
 .promos {
     display: flex;
+    width: 100%;
+    min-width: 1024px;
 }
+
+.promos img {
+    width: 100%;
+}
+
 footer {
     margin-top: 1em;
     display: flex;
     justify-content: center;
 }
+
 #footer-content-wrapper{
     display: flex;
     font-size: 10px;
