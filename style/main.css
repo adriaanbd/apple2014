@@ -40,9 +40,9 @@ header {
     width: 980px;
     height: 36px;
     border-radius: 4px;
-    background: linear-gradient(to bottom, #686868, #5c5c5c, #717171, #8d8d8d);
+    background: linear-gradient( #686868, #727272, #737373, #717171, #717171, #6e6e6e, #6c6c6c, #6a6a6a, #676767, #666666, #646464, #626262, #616161, #606060, #5f5f5f, #5f5f5f, #5e5e5e, #5e5e5e, #707070, #717171, #717171, #727272, #747474, #767676, #777777, #797979, #7b7b7b, #7d7d7d, #808080, #828282, #848484, #878787, #8d8d8d, #8d8d8d);
+    
 }
-
 
 .nav-link {
     width: 106px;
@@ -54,13 +54,41 @@ header {
     padding-top: 0.5em;
     height: 100%;
 }
+
+.fa-apple {
+    font-size: 22px;
+}
+
 #search-div {
     width: 119px; 
+    position: relative;
 }
+
+input:focus {
+    outline: none;
+}
+
+#search-div .fa-search {
+    position: absolute;
+    font-size: 12px;
+    top: 36%;
+    left: 11%;
+    color: #fff;
+}
+
 #search {
-    /* background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6%2BR8AAAAlEl…SGBj7Qveh3OJW89syImiH%2BIO2BOJX0XwA2%2BQEL4pAhSX4aBQAAAABJRU5ErkJggg%3D%3D) no-repeat 0 0; */
     width: 106px;
+    height: 20px;
+    border-radius: 10px;
+    text-indent: 1.8em;
+    font-size: 12px;
+    background: linear-gradient(#686868, #727272, #737373, #717171, #717171, #6e6e6e, #6c6c6c, #6a6a6a, #676767, #666666, #646464, #626262, #616161, #606060, #5f5f5f, #5f5f5f, #5e5e5e, #5e5e5e, #707070, #717171, #717171, #727272, #747474, #767676, #777777, #797979, #7b7b7b, #7d7d7d, #808080, #828282, #848484, #878787, #8d8d8d, #8d8d8d);
+    border: none;
+    box-shadow: 1px -2px #3b3b3b;
 }
+
+
+
 #hero-wrapper {
     align-items: center;
     justify-content: flex-start;
