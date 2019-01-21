@@ -47,12 +47,26 @@ header {
 .nav-link {
     width: 106px;
     cursor: pointer;
+    border-right: 1px solid #535353;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #313131;
+    /* opacity: 0; */
+}
+.nav-link:hover {
+    
 }
 
 .nav-item {
-    display: inline-block;
-    padding-top: 0.5em;
     height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .fa-apple {
@@ -71,8 +85,8 @@ input:focus {
 #search-div .fa-search {
     position: absolute;
     font-size: 12px;
-    top: 36%;
-    left: 11%;
+    top: 34%;
+    left: 13%;
     color: #fff;
 }
 
