@@ -30,6 +30,7 @@ header {
     background-size: 1440px 1315px; 
     height: 550px;
     align-items: center;
+    color: #fff;
     justify-content: center;
 }
 
@@ -41,7 +42,6 @@ header {
     height: 36px;
     border-radius: 4px;
     background: linear-gradient( #686868, #727272, #737373, #717171, #717171, #6e6e6e, #6c6c6c, #6a6a6a, #676767, #666666, #646464, #626262, #616161, #606060, #5f5f5f, #5f5f5f, #5e5e5e, #5e5e5e, #707070, #717171, #717171, #727272, #747474, #767676, #777777, #797979, #7b7b7b, #7d7d7d, #808080, #828282, #848484, #878787, #8d8d8d, #8d8d8d);
-    
 }
 
 .nav-link {
@@ -86,8 +86,6 @@ input:focus {
     border: none;
     box-shadow: 1px -2px #3b3b3b;
 }
-
-
 
 #hero-wrapper {
     align-items: center;
