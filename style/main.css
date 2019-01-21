@@ -21,7 +21,7 @@ html {
 
 body {
     max-width: 1440px;
-    margin: 0;
+    margin: auto;
 }
 
 header {
@@ -158,6 +158,7 @@ input:focus {
 }
 
 .promos {
+    margin-top: 0.1em;
     width: 100%;
     min-width: 1024px;
 }
